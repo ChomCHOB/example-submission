@@ -1,0 +1,24 @@
+{
+	"name": "example-submission",
+	"version": "1.0.0",
+	"description": "\"# example-submission\"",
+	"main": "index.js",
+	"scripts": {
+		"example": "node programming/example",
+		"test": "./node_modules/.bin/mocha programming/test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wittayasutt/example-submission.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/wittayasutt/example-submission/issues"
+	},
+	"homepage": "https://github.com/wittayasutt/example-submission#readme",
+	"devDependencies": {
+		"chai": "^4.1.2",
+		"mocha": "^5.2.0"
+	}
+}
